@@ -9,8 +9,6 @@ const App = () => {
 
   let Pagina = Home;
 
-  console.log(pathname)
-
   if (pathname === '/Produtos') {
     Pagina = Produtos;
   } else {
